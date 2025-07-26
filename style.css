@@ -964,9 +964,22 @@ body {
         width: 36px;
         height: 36px;
     }
+
+    .recipe-section .recipe-right-img {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
+    .banner-section .banner-buttons {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .recipe-section .recipe-right {
+        align-items: center;
+    }
+
     .footer-container {
         flex-direction: column;
         align-items: flex-start;
